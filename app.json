@@ -15,7 +15,7 @@
     "GOOGLE_ANALYTICS": {
       "description": "Your GA tracking code for signal tracking",
       "value": "",
-      "required": "false"
+      "required": false
     }
   },
   "image": "heroku/nodejs"
