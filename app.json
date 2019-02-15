@@ -1,0 +1,22 @@
+{
+  "name": "Basic EComm Web site",
+  "description": "EComm funnel demonstration",
+  "repository": "https://github.com/msencer/start_a_business",
+  "success_url": "/",
+  "env": {
+    "BUSINESS_NAME": {
+      "description": "Your business name",
+      "value": "MyBusiness"
+    },
+    "PIXEL_ID": {
+      "description": "Your FB Pixel ID for signal tracking",
+      "value": ""
+    },
+    "GOOGLE_ANALYTICS": {
+      "description": "Your GA tracking code for signal tracking",
+      "value": "",
+      "required": "false"
+    }
+  },
+  "image": "heroku/nodejs"
+}
